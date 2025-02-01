@@ -1,0 +1,6 @@
+SuperSlicer: PRINT_START EXTRUDER_TEMP={first_layer_temperature[initial_extruder] + extruder_temperature_offset[initial_extruder]} BED_TEMP=[first_layer_bed_temperature]
+
+Orca: PRINT_START EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]
+
+
+EXTRUDER_TEMP und BED_TEMP sind in der printer.cfg hinterlget und müssen in die print_start
